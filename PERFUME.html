@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MARKOVA Parfumé — мир Парфюмерии</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Parfumé</div>
+        <nav class="nav">
+            <a href="#catalog">Каталог</a>
+            <a href="#about">О нас</a>
+            <a href="#contacts">Контакты</a>
+        </nav>
+        <div class="cart">Корзина: 0</div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Искусство ароматов</h1>
+            <p>Эксклюзивная парфюмерия от мировых брендов</p>
+            <button class="btn">Посмотреть каталог</button>
+        </div>
+        <div class="hero-image"></div>
+    </section>
+
+    <section id="catalog" class="catalog">
+        <h2>Наш каталог</h2>
+        <div class="products">
+            <div class="product-card">
+                <img src="placeholder.jpg" alt="Парфюм 1">
+                <h3>Eau de Parfum</h3>
+                <p class="price">12 500 ₽</p>
+                <button class="btn btn-small">В корзину</button>
+            </div>
+            <!-- Повторить для других товаров -->
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>О нас</h2>
+        <p>Мы — магазин элитной парфюмерии с 10‑летним опытом. Работаем только с официальными дистрибьюторами, гарантируем подлинность каждого аромата.</p>
+        <ul class="features">
+            <li>Бесплатная доставка от 5 000 ₽</li>
+            <li>Тестеры перед покупкой</li>
+            <li>Персональные консультации</li>
+        </ul>
+    </section>
+
+    <section id="contacts" class="contacts">
+        <h2>Контакты</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Ваше имя" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Сообщение" required></textarea>
+            <button type="submit" class="btn">Отправить</button>
+        </form>
+        <div class="info">
+            <p>Телефон: +7 (495) 123-45-67</p>
+            <p>Адрес: г.Владивосток, ул.Океанский пр-т, 69. Тц Галерея, 1-й этаж.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Parfumé. Все права защищены.</p>
+    </footer>
+</body>
+</html>
